@@ -1,1 +1,81 @@
 <!-- CTRL/ - Comments = codes that will not run in the browser -->
+<!-- wrap text = alt+shift+f , wraps the text to your window -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Information about the website -->
+
+<head>
+  <!-- INDENT elements inside elements -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- IE = edge , compatible with that browser -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Reference</title>
+</head>
+
+<body>
+  <header id="header">
+    <!-- H are headings and go from 1 to 6 in terms of importance -->
+    <h1>Common HTML Elements</h1>
+    <!-- P are for text  -->
+    <p>Showcase of commonly used HTML elements</p>
+  </header>
+  <!-- Main is main content of the website -->
+  <main>
+    <!-- This section is adding structure -> grouping related content -->
+    <!-- Ariticle is also good for adding structure , 
+      good for grouping content that makes sense by itself, 
+      they make sense without context, a stand alone content -->
+    <section>
+      <h2>Images</h2>
+      <!--  inline elements / src attributes -> need to be source of image -->
+      <!-- alt atributes gives alternative text , good for acessability, to quickly see what it is -->
+      <img src="#" alt="Alternative text" />
+      <img src="#" alt="Alternative text" />
+      <img src="#" alt="Alternative text" />
+    </section>
+    <section>
+      <h2>Lists</h2>
+      <h3>Unordered Lists (Bullet Point Lists)</h3>
+      <!-- ul = unorderd list -->
+      <ul>
+        <!-- li = list items -->
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+      </ul>
+      <h3>Ordered Lists (Numbered Lists)</h3>
+      <!-- ol = orderd list -->
+      <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+      </ol>
+    </section>
+    <section>
+      <h2>Containers</h2>
+      <h3>Div Containers</h3>
+      <!-- div is used for grouping and dividing html -> should only be used for styling rather than structure -->
+      <div>
+        <p>First Item in Group</p>
+        <p>Second Item in Group</p>
+      </div>
+      <h3>Span Containers</h3>
+      <div>
+        <!-- Span is inline used for grouping  -->
+        <p><span>First</span> Item in Group</p>
+        <p><span>Second</span> in Group</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <h2>Links</h2>
+    <!-- a tag is an anchor / link -> href = where this link is going -->
+    <a href="./README.md">Linking to another file in folder</a>
+    <a href="#header">Linking to an ID</a>
+    <a href="https://www.google.com/">Linking to website</a>
+    <a href="https://www.google.com/" target="_blank">Link and Open new tab</a>
+  </footer>
+</body>
+
+</html>
